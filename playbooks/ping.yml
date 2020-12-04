@@ -1,6 +1,6 @@
-#ping.yml test test test
+#ping.yml test test test test
 ---
   - hosts: all
     tasks:
-      - name: Ping all servers
+      - name: Ping all servers test by hari khadkda
         action: ping 
