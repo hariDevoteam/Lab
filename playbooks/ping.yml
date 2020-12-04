@@ -1,4 +1,4 @@
-#ping.yml
+#ping.yml test test test
 ---
   - hosts: all
     tasks:
