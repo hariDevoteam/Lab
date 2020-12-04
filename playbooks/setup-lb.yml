@@ -1,0 +1,8 @@
+#setup-lb.yml
+
+---
+  - hosts: loadbalancers
+    tasks:
+      - name: Creating template
+        template:
+          src: 
